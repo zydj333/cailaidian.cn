@@ -1,0 +1,5 @@
+RewriteEngine on  
+
+RewriteCond $1 !^(index\.php|crossdomain.xml|static|upload|kindeditor|\?.*)
+
+RewriteRule ^(.*)$ /index.php/$1 [L]

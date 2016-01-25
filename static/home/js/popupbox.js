@@ -1,0 +1,3 @@
+// JavaScript Document
+$.fn.PopupBox=function(n){var r=$.extend({title:"",content:"",ishow:!0},n),t="<div class='popupbFrame'><div class='head clearfix'><div class='error'><\/div><h6 class='title'>"+r.title+"<\/h6><div class='close'>x<\/div><\/div><p class='content'>"+r.content+"<\/p><\/div>",i;t=$(t);i=$('<div class="popupboxmask"><\/div>');i.css({position:"absolute",width:$(document).width(),height:$(document).height(),left:0,top:0,background:"#fff",opacity:"0.04",zIndex:99990});$("body").append(t);$("body").append(i);$(document).on("click",".popupbFrame .close",function(){$(".popupboxmask").remove();t.remove()})};
+//# sourceMappingURL=Popupbox.min.js.map

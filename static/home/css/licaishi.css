@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+/*理财明星*/
+.lcmx_mn{width:1080px;margin:0 auto;}
+.lcmx_mn_choose{height:38px;margin-top:30px;background:#f5f5f5;color:#fe3638;}
+.lcmx_mn_choose ul{padding:10px 0;}
+.lcmx_mn_choose ul li{float:left;margin-right:20px;}
+.lcmx_mn_choose ul li .lcmx_location_name{position:relative;top:-8px;font-size:20px;color:#333;}
+.lcmx_mn_choose .lcmx_bylevel{display:block;width:45px;color:#fe3638;background:url(../image/lcmx_bylevel_up.png) right no-repeat;}
+.more_location{width:58px;background:url(../image/lcmx_more_location_down.png) right no-repeat;}
+.more_location .location_list{display:none;position:absolute;left:-100px;top:15px;z-index:999;}
+.more_location .location_list ul{width:1037px;padding:12px 20px 0;margin-top:10px;border:1px solid #e0e0e0;background:#fff;}
+.more_location .location_list ul li{width:61px;margin:0 0 10px 0;text-align:center;}
+.more_location .location_list ul li:hover{background:#f63e4f;color:#fff;cursor:pointer;}
+.more_location:hover .location_list{display:block;}
+.lcmx_mn_cont{margin-top:30px;}
+.lcmx_mn_cont ul li{float:left;}
+.lcmx_mn_cont ul li .lcmx_mn_cont_item{width:232px;height:147px;margin:0 13px 20px 0;padding:10px 13px 11px;border:1px solid #e0e0e0;color:#333;background:#f5f5f5;}
+.lcmx_mn_cont ul li .lcmx_mn_cont_item:hover{-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.3);-moz-box-shadow: 0 0 10px rgba(0,0,0,0.3);box-shadow: 0 0 10px rgba(0,0,0,0.3);}
+.lcmx_mn_cont_item .lcmx_head{position:absolute;top:-0px;width:82px;height:82px;border:1px solid #ccc;border-radius:50%;}
+.lcmx_mn_cont_item .lcmx_item_itd{width:121px;margin-top:14px;line-height:1.7em;}
+.lcmx_mn_cont_item .lcmx_item_sign{width:230px;height:30px;overflow:hidden;word-break:break-all;margin-top:86px;color:#666;}
+.lcmx_mn_cont_item .lcmx_level{margin-left:5px;}
+.lcmx_mn_cont_item .lcmx_item_btn{display:block;float:left;margin-right:10px;padding:4px 33px;color:#fff;background:url(../image/lcmx_mn_cont_item_btn.png) 50% no-repeat;}
+.lcmx_mn_pager{text-align:center}
+.lcmx_mn_pager a{padding:2px 6px;margin:0px 2px;text-decoration:none;background:#fff;color:#333333;border:1px solid #dddddd;display:inline-block;}
+.lcmx_mn_pager a:hover,.lcmx_mn_pager a:active,.lcmx_mn_pager .current {background:#f63e4f;color:#fff; border: 1px solid #ff6633;}
+.lcmx_mn_pager a.disabled {display: none}
+/*弹出窗口样式*/
+#fade{position:absolute;top:0;width:100%;height:100%;background:#000;opacity:0.5;z-index:100;}
+/*咨询*/
+#popupcontent0{ position:fixed;overflow:hidden;width:480px;height:350px;border-radius:3px;box-shadow:0 5px 10px #666;background:#fff; z-index:101;}
+#popupcontent0 .popupcontent_tt{width:480px;padding:5px 0 11px;text-align:center;font-size:18px;color:#fff;background:url(../image/pop_tt_bg_03.png) 50% no-repeat;}
+#popupcontent0 form{width:380px;margin:20px auto;}
+#popupcontent0 form .lcmx_fm_ta{width:372px;height:109px;margin-bottom:7px;padding:4px;border:none;background:url(../image/lcmx_pop_ta_bg.png) 50% no-repeat;}
+#popupcontent0 form ul li{float:left;width:48px;margin-right:10px;padding:1px 0;background:url(../image/lcmx_pop_lianxi_05.png) 50% no-repeat;text-align:center;color:#f5f5f5;cursor:pointer;}
+#popupcontent0 form ul li.wfl_red{background:url(../image/lcmx_pop_lianxi_03.png) 50% no-repeat;}
+#popupcontent0 form .lcmx_fm_ipt_t{width:380px;height:30px;margin:8px 0 10px 0;border:none;text-indent:4px;background:url(../image/lcmx_fm_ipt_t.png) 50% no-repeat;}
+#popupcontent0 #statusbar0 a{position:absolute;left:245px;top:-59px;display:block;padding:9px 25px;font-size:14px;color:#fff;border:none;background:url(../image/pop_btn_09.png) 50% no-repeat;}
+#popupcontent0 form .popup0_ipt_sub{width:140px;height:38px;border:none;background:url(../image/pop_btn_07.png) 50% no-repeat;cursor:pointer;font-size:16px;color:#fff;}
+/*关注*/
+#popupcontent1{ position:fixed;overflow:hidden;width:480px;height:330px;border-radius:3px;box-shadow:0 5px 10px #666;background:#fff; z-index:101;}
+#popupcontent1 .popupcontent_tt{width:480px;padding:5px 0 11px;text-align:center;font-size:18px;color:#fff;background:url(../image/pop_tt_bg_03.png) 50% no-repeat;}
+#popupcontent1 .popupcontent_cont{width:110px;margin:52px auto 0px;}
+#popupcontent1 .popupcontent_cont .lcmx_code{border:1px solid #ef3434;}
+#popupcontent1 .popupcontent_cont p{margin-top:5px;text-align:center;color:#333;}
+#popupcontent1 #statusbar1 a{position:absolute;left:187px;top:30px;display:block;padding:9px 25px;font-size:14px;color:#fff;border:none;background:url(../image/pop_btn_09.png) 50% no-repeat;}
+
+/*理财师上传产品清单*/
+.lpl_mn{width:1080px;margin:30px auto;}
+.lpl_mn_tt{margin-bottom:5px;font-size:18px;font-weight:500;color:#fe3638;}
+.lpl_mn_cont{height:799px;padding:0 20px;border-top:3px solid #ccc;}
+.lpl_mn_lcs_intro{padding:30px 0 44px 0;}
+.lpl_mn_lcs_intro a{color:#3ccafb;}
+.lcs_uhead{position:absolute;left:0px;top:54px;width:82px;height:82px;border:1px solid #fff;border-radius:50%;box-shadow:0 2px 5px #999;}
+.lpl_mn_lcs_intro_detail{line-height:2em;margin-left:131px;color:#333;}
+.lpl_mn_lcs_intro_detail p{width:130px;overflow:hidden;white-space:nowrap;}
+.lpl_mn_lcs_intro_detail .ud_whatup{width:120px;line-height:1.2em;padding:5px 0 0 3px;overflow:hidden;word-break:break-all;}
+.lpl_mn_lcs_intro_detail ul{margin-top:7px;}
+.lpl_mn_lcs_intro_detail ul li{float:left;position:relative;margin-right:10px;}
+.lpl_mn_lcs_intro_detail ul li img{background:url(../image/huiyuanzx_icon_bg_05.png) 50% no-repeat;}
+.lpl_mn_lcs_intro_detail ul li img:hover{background:url(../image/huiyuanzx_icon_bg_03.png) 50% no-repeat;cursor:pointer;}
+.lpl_mn_lcs_intro_detail ul li img#yirenzheng{background:url(../image/huiyuanzx_icon_bg_03.png) 50% no-repeat;}/*已认证样式*/
+.lpl_mn_lcs_intro_detail ul li ul{display:none;position:absolute;left:-30px;top:30px;z-index:9;}
+.lpl_mn_lcs_intro_detail ul li:hover ul{display:block;}
+.lpl_mn_lcs_intro_detail .ud_level{left:58px;top:11px;display:inline-block;width:180px;height:4px;border-radius:10px;background:#999;}
+.lpl_mn_lcs_intro_detail .ud_level i{display:block;height:4px;border-radius:10px;background:#1dbb86;}
+.lpl_mn_lcs_intro_detail .level_medal{position:absolute;left:245px;top:2px;}
+.lpl_mn_lcs_intro_code{text-align:center;color:#a3a3a3;}
+.lpl_mn_lcs_intro_code img{display:block;margin-bottom:5px;border:1px solid #ef3434;}
+.lpl_list_tt{margin-bottom:5px;font-size:14px;color:#333;font-weight:500;}
+.lpl_list_detail{border-top:3px solid #ccc;}
+.lpl_list_detail_tt{margin:10px 0;padding:2px 0;color:#333;background:#e8e8e8}
+.lpl_list_detail_tt .lpl_tt_td{width:186px;text-align:center;border:1px solid #e8e8e8;}
+.lpl_list_detail_item table{table-layout:fixed;}
+.lpl_list_detail_item table td{margin-bottom:10px;background:#fff;border:1px solid #e0e0e0;}
+.lpl_list_detail_item .lpl_item_td{width:185px;padding:9px 0;text-align:center;overflow:hidden;word-break:break-all;}
+.lpl_list_detail_item .lpl_item_name{color:#333;}
+.lpl_list_detail_item .lpl_item_name:hover{text-decoration:underline;color:#f1070a;}
+.lpl_mn_lcs_list_pager{margin-top:20px;padding-left:20px;color:#909090;}
+.lpl_mn_lcs_list_pager ul li{float:left;line-height:26px;margin-left:10px;text-align:center;}
+.lpl_mn_lcs_list_pager ul li .pager_num{width:35px;height:26px;padding-left:5px;border:none;background:url(../image/pager_num.png) 50% no-repeat;}
+.lpl_mn_lcs_list_pager ul li .pager_go{display:block;width:40px;height:26px;color:#fff;cursor:pointer;background:url(../image/pager_go.png) 50% no-repeat;}
+.lpl_mn_lcs_list_pager ul li a{display:block;width:60px;height:26px;line-height:26px;margin-left:10px;text-align:center;background:url(../image/lpl_list_pager.png) 50% no-repeat;color:#909090;}
+
+/*理财师上传产品详情*/
+.lpd_mn{width:1080px;margin:30px auto;}
+.lpd_mn_tt{margin-bottom:5px;font-size:18px;color:#fe3638;}
+.lpd_mn_tb{width:1080px;margin:0 auto;padding:30px 0 30px;border-top:3px solid #ccc;background:#f5f5f5;}
+.lpd_mn_tb_cont{width:898px;margin:0 auto;font-size:14px;color:#333;table-layout:fixed;}
+.lpd_mn_tb_cont td{text-align:center;overflow:hidden;white-space:nowrap;word-break:break-all;border:1px solid #e0e0e0;}
+.lpd_mn_share{margin-top:27px;}
+.lpd_mn_share ul{float:right;margin-right:92px;}
+.lpd_mn_share ul li{float:left;margin-left:10px;}
+.lpd_mn_share_btn {display:block;padding:7px 15px 3px 31px;color:#fff;}
+/*弹出窗*/
+#popupcontent2{ position:fixed; overflow:hidden;width:480px;border-radius:3px;box-shadow:0 5px 10px #666;background:#fff;z-index:101;}
+#popupcontent2 .popupcontent_tt{width:480px;padding:5px 0 11px;text-align:center;font-size:18px;color:#fff;background:url(../image/pop_tt_bg_03.png) 50% no-repeat;}
+#popupcontent2 .popupcontent_cont{float:left;margin-bottom:10px;}
+#popupcontent2 .popupcontent_cont p{float:left;width:90px;margin-top:7px;text-align:right;font-size:14px;color:#333;}
+#popupcontent2 form{margin:40px 0 0 40px;}
+#popupcontent2 form .popup2_ipt_t{width:273px;height:38px;margin-left:8px;padding-left:5px;border:none;background:url(../image/lpl_popup_bg.png) 50% no-repeat;}
+#popupcontent2 #statusbar2 a{position:absolute;left:300px;top:-83px;display:block;padding:9px 25px;font-size:14px;color:#fff;border:none;background:url(../image/pop_btn_09.png) 50% no-repeat;}
+#popupcontent2 form .popup2_ipt_sub{width:140px;height:38px;margin:20px 0 45px 101px;border:none;background:url(../image/pop_btn_07.png) 50% no-repeat;cursor:pointer;font-size:16px;color:#fff;}
+/**/
+
+
+
+
+
+
+
+
+

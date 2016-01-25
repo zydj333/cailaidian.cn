@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*model-select----start*/
+.model-select-box{float:left;position:relative;width:120px;margin:5px 0 5px 5px;font-size:14px;}
+.model-select-text{float:left;text-align:center;padding:7px 53px 8px 39px;background:url(../image/sq_select_icon.png) right no-repeat #e6e6e6;cursor:pointer;}
+.model-select-option{display:none;position:absolute;left:-1px;width:120px;background:#fff;}
+.model-select-option li{height:34px;line-height:34px;padding:0 50px 2px 40px;color:#333;cursor:pointer;border:1px solid #bdbdbd;}
+.model-select-option li.seleced{background:#e0e0e0;}
+/*model-select----end*/
+
+/*理财社区首页*/
+.sq_bd{background:#f5f5f5;padding:24px 0 30px 0;}
+/*主栏*/
+.sq_mn_tt{width:784px;padding:4px 0 4px 10px;background:#e6e6e6;}
+.sq_mn_tt h2{line-height:1.2em;padding-left:5px;letter-spacing:1.7px;font-size:18px;font-weight:200;border-left:3px solid #f1070a;}
+.sq_mn_cont{margin-bottom:10px;padding:10px 0 0 10px;border:1px solid #e0e0e0;}
+.sq_mn_cont h4{width:500px;font-size:16px;font-weight:200;color:#333;text-align:left;border-bottom:4px solid #e6e6e6;}
+.sq_mn_cont .sq_mn_item{margin:26px 0 46px 0;}
+.sq_mn_item_img a{display:table-cell;width:248px;height:182px;text-align:center;vertical-align:middle;border:1px solid #e0e0e0;overflow:hidden;font-size:0;}
+.sq_mn_item_list{width:249px;padding:0 8px 0 8px;}
+.sq_mn_item_list ul li{width:249px;line-height:2.1em;overflow:hidden;white-space:nowrap;}
+.sq_mn_item_list ul li a{font-size:14px;color:#333;}
+.sq_mn_item_list ul li a:hover{text-decoration:underline;color:#f1070a;}
+
+/*金融资讯页面*/
+.sq_news_cont
+.sq_news_item{margin-bottom:10px;padding:10px;border:1px solid #e0e0e0;}
+.sq_news_item_tt{width:772px;padding-bottom:8px;overflow:hidden;white-space:nowrap;}
+.sq_news_item_tt a{font-size:16px;font-weight:600;color:#000;}
+.sq_news_item_tt a:hover{color:#f1070a;}
+.sq_news_item_detail{padding:24px 0 10px;border-top:4px solid #e6e6e6;}
+.sq_news_item_img a{display:table-cell;width:378px;height:248px;text-align:center;vertical-align:middle;overflow:hidden;border:1px solid #e0e0e0;font-size:0;}
+.sq_news_item_cont{width:380px;margin-left:10px;overflow:hidden;}
+.sq_news_item_cont .sq_news_item_cont_hd{color:#b6bdca;}
+.sq_news_item_cont_hd .sq_news_item_cont_date{float:left;margin-left:5px;padding-left:5px;border-left:1px solid #b6bfcb;}
+.sq_news_item_cont_hd .sq_news_item_cont_read{float:left;margin-left:44px;padding-left:18px;background:url(../image/sq_news_icon_07.png) left no-repeat;}
+.sq_news_item_cont_btn1,.sq_news_item_cont_hd .sq_news_item_cont_btn2{display:block;float:right;margin-left:20px;padding-right:18px;color:#b6bdca;}
+.sq_news_item_cont_btn1{background:url(../image/sq_news_icon_05.png) right no-repeat;}
+.sq_news_item_cont_btn2{background:url(../image/sq_news_icon_03.png) right no-repeat;}
+.sq_news_item_cont_btn1:hover{color:#333;background:url(../image/sq_news_icon_08.png) right no-repeat;}
+.sq_news_item_cont_btn2:hover{color:#333;background:url(../image/sq_news_icon_06.png) right no-repeat;}
+.sq_news_item_cont .sq_news_item_txt{height:160px;line-height:2em;margin-top:60px;font-size:14px;color:#333;text-indent:30px;overflow:hidden;word-break:break-all;}
+.sq_news_pager{padding:15px 0;text-align:center;font-size:14px;border:1px solid #e0e0e0;border-top:none;}
+.sq_news_pager a,.sq_news_pager .current{display:inline-block;padding:4px 8px;margin:0px 2px;text-decoration:none;background:#fff;color:#333;border:1px solid #ddd;}
+.sq_news_pager a:hover,.sq_news_pager a:active,.sq_news_pager span.current{background:#f63e4f;color:#fff;border: 1px solid #ff6633;}
+.sq_news_pager a.disabled {display:none}
+/*金融资讯详情页面*/
+.sq_news_d_hd{width:772px;padding:0 10px;text-align:center;background:#e6e6e6;color:#b6bfca;}
+.sq_news_d_class{margin:6px 0;padding-left:4px;border-left:3px solid #f1070a;}
+.sq_news_d_tt{padding-top:4px;font-size:14px;color:#f1070a;}
+.sq_news_d_read{margin:6px 0;padding-left:18px;background:url(../image/sq_news_d_read.png) left no-repeat;}
+.sq_news_d_cont{border:1px solid #e0e0e0;}
+.sq_news_d_time{width:743px;margin:8px auto 0;padding-bottom:10px;color:#b6bdca;text-align:center;border-bottom:2px dashed #e0e0e0;}
+.sq_news_d_time p{display:inline-block;color:#3ccafb;margin-right:5px;padding-right:5px;border-right:1px solid #b6bfcb;}
+.sq_news_d_text{width:772px;line-height:2em;font-size:14px;padding:66px 9px 0;overflow:hidden;word-break:break-all;}
+.sq_news_d_text p{text-indent:25px;}
+.sq_news_d_share{margin-top:200px;}
+.sq_news_d_share a{margin-left:9px;}
+.sq_news_d_ad{width:772px;line-height:2em;margin-top:30px;padding:0 9px;overflow:hidden;word-break:break-all;}
+
+/*理财问答页面*/
+.sq_quest_hd{width:772px;padding:17px 10px;border:1px solid #e0e0e0;overflow:hidden;}
+.sq_quest_hd ul li{margin-right:20px;padding:3px 17px;float:left;font-size:14px;color:#333;background:#e6e6e6;}
+.sq_quest_hd ul li:hover{color:#fff;background:#f1070a;}
+.sq_quest_item{padding:13px 11px;overflow:hidden;border:1px solid #e0e0e0;border-top:none;}
+.sq_quest_item_read{width:36px;padding:5px 0;text-align:center;color:#909090;background:url(../image/sq_quest_read_bg.png) 50% no-repeat;overflow:hidden;}
+.sq_quest_item_read p{line-height:1.1em;letter-spacing:0.4px;}
+.sq_quest_item_tt{width:600px;margin-left:10px;color:#333;overflow:hidden;white-space:nowrap;}
+.sq_quest_item_tt p a{color:#333;}
+.sq_quest_item_tt p a:hover{color:#f1070a;}
+.sq_quest_item_btn{display:none;float:right;margin-top:3px;padding:5px 30px;border:1px solid #f1070a;color:#f1070a;}
+.sq_quest_item:hover .sq_quest_item_btn{display:block;}
+.sq_quest_wrap{width:770px;}
+.sq_answer_ta{width:762px;height:79px;margin-top:12px;padding:3px;border:1px solid #e0e0e0;border-radius:5px;}
+.sq_answer_btn{display:block;float:right;margin:13px 0 0 10px;padding:5px 30px;border:1px solid #f1070a;color:#f1070a;}
+.sq_quest_pager{padding:15px 0;text-align:center;font-size:14px;border:1px solid #e0e0e0;border-top:none;}
+.sq_quest_pager a,.sq_quest_pager .current{display:inline-block;padding:0 4px;margin:0px 2px;text-decoration:none;background:#fff;color:#333;border:1px solid #ddd;}
+.sq_quest_pager a:hover,.sq_quest_pager a:active,.sq_quest_pager span.current{background:#f63e4f;color:#fff;border: 1px solid #ff6633;}
+.sq_quest_pager a.disabled {display:none}
+.sq_quest_pager_ipt{width:20px;padding:1px;border:1px solid #ddd;}
+.pub_item_active{background:#f9f9f9;}
+
+/*提问页面*/
+.sq_ask{width:1080px;margin:0 auto;padding:103px 0 254px;border:1px solid #e0e0e0;overflow:hidden;}
+.sq_ask_tt{margin:10px 0 10px 6px;padding-left:26px;font-size:14px;color:#333;background:url(../image/sq_ask_tt.png) left no-repeat;}
+.sq_ask_ipt{width:620px;height:40px;padding-left:10px;font-size:14px;border:none;background:url(../image/sq_ask_ipt.png) 50% no-repeat;}
+.sq_ask_btn{display:block;margin-top:100px;padding:8px 29px;font-size:14px;color:#fff;background:url(../image/sq_ask_btn.png) 50% no-repeat;}
+/*侧栏，登陆后*/
+.sq_loginon_hd{position:relative;padding:12px 9px;background:#e6e6e6;}
+.sq_uhead{position:absolute;left:7px;top:8px;width:82px;height:82px;border:1px solid #fff;border-radius:50%;box-shadow:0 2px 5px #999;}
+.sq_loginon_hd_data p{max-width:164px;overflow:hidden;white-space:nowrap;}
+.sq_loginon_hd ul{margin-top:7px;}
+.sq_loginon_hd ul li{float:left;position:relative;margin-right:10px;}
+.sq_loginon_hd ul li img{background:url(../image/huiyuanzx_icon_bg_05.png) 50% no-repeat;}
+.sq_loginon_hd ul li img:hover{background:url(../image/huiyuanzx_icon_bg_03.png) 50% no-repeat;cursor:pointer;}
+.sq_loginon_hd ul li #yirenzheng{background:url(../image/huiyuanzx_icon_bg_03.png) 50% no-repeat;}/*已认证样式*/
+.sq_loginon_hd ul li ul{display:none;position:absolute;left:-30px;top:15px;z-index:19;}
+.sq_loginon_hd ul li:hover ul{display:block;}
+.sq_loginon_cont{padding:39px 0 50px 0;font-size:14px;}
+.sq_loginon_cont .sq_loginon_cont_message{margin-left:86px;padding-left:20px;color:#333;background:url(../image/sq_quest_mes_03.png) left no-repeat;}
+.sq_loginon_cont .sq_loginon_cont_message:hover{color:#3ccafb;background:url(../image/sq_quest_mes_06.png) left no-repeat;cursor:pointer;}
+.sq_loginon_cont .sq_loginon_cont_num{margin-left:10px;padding:0 2px;font-size:12px;color:#fff;background:#cfcfcf;}
+.sq_loginon_cont_btn{display:block;width:34px;margin:20px 0 0 79px;padding:6px 41px;color:#fff;background:url(../image/sq_quest_mes_btn.png) 50% no-repeat;}
+
+/*我的提问*/ /*我的回答*/
+.sq_mq_mn_tt{width:772px;padding:16px 10px;border:1px solid #e0e0e0;}
+.sq_mq_mn_tt h2{width:90px;text-align:center;padding:3px 0;font-size:14px;font-weight:100;color:#fff;background:#f1070a;}
+.sq_mq_item{padding:13px 11px 16px;border:1px solid #e0e0e0;border-top:none;overflow:hidden;}
+.sq_mq_item_answer{width:36px;margin-right:9px;padding:5px 0;text-align:center;color:#909090;background:url(../image/sq_quest_read_bg.png) 50% no-repeat;overflow:hidden;}
+.sq_mq_item_answer p{line-height:1.1em;letter-spacing:0.4px;}
+.sq_mq_item_tt{width:600px;}
+.sq_mq_item_tt a{color:#333;}
+.sq_mq_item_tt a:hover{color:#f1070a;}
+.sq_mq_item_tt p{overflow:hidden;white-space:nowrap;}
+.sq_mq_item_time{color:#909090;}
+.sq_mq_mn_pager{padding:15px 0;text-align:center;font-size:14px;border:1px solid #e0e0e0;border-top:none;}
+.sq_mq_mn_pager a,.sq_mq_mn_pager .current{display:inline-block;padding:0 4px;margin:0px 2px;text-decoration:none;background:#fff;color:#333;border:1px solid #ddd;}
+.sq_mq_mn_pager a:hover,.sq_mq_mn_pager a:active,.sq_mq_mn_pager span.current{background:#f63e4f;color:#fff;border: 1px solid #ff6633;}
+.sq_mq_mn_pager a.disabled {display:none}
+
+/*问题详情页*/
+.sq_cqd_hd{width:772px;padding:17px 10px;border:1px solid #e0e0e0;overflow:hidden;}
+.sq_cqd_hd .sq_cqd_hd_tt{padding-left:5px;font-size:16px;font-weight:500;border-left:4px solid #f1070a;overflow:hidden;white-space:nowrap;}
+.sq_cqd_hd .sq_cqd_hd_tt_son{margin:7px 0 0 10px;color:#909090;overflow:hidden;}
+.sq_cqd_hd .sq_cqd_hd_tt_son p{float:left;line-height:1em;margin-right:10px;padding-right:10px;}
+.sq_cqd_hd .sq_cqd_hd_btn{display:block;width:108px;text-align:center;padding:5px 0;color:#f1070a;border:1px solid #f1070a;}
+.sq_cqd_wrap,.sq_cqd_revise_wrap{width:770px;}
+.sq_cqd_ta{width:762px;height:79px;margin-top:12px;padding:3px;border:1px solid #e0e0e0;border-radius:5px;}
+.sq_cqd_btn,.sq_cqd_cancel_revise_btn{display:block;float:right;margin:13px 0 0 10px;padding:5px 30px;border:1px solid #f1070a;color:#f1070a;}
+.sq_cqd_cont{margin-top:20px;}
+.sq_cqd_cont_tt{padding:10px;font-size:14px;color:#333;border:1px solid #e0e0e0;}
+.sq_cqd_cont_item{padding:25px 10px 30px;position:relative;border:1px solid #e0e0e0;border-top:none;}
+.sq_cqd_item_uhead{position:absolute;left:12px;top:11px;width:82px;height:82px;border:1px solid #fff;border-radius:50%;box-shadow:0 2px 5px #999;}
+.sq_cqd_cont_item_tt{line-height:20px;margin-left:108px;color:#909090;overflow:hidden;}
+.sq_cqd_cont_item_cont{width:600px;margin:10px 0 0 108px;color:#333;overflow:hidden;word-break:break-all;}
+.sq_cqd_cont_item_ft{margin-top:14px;}
+.sq_cqd_cont_item_ft_btn{margin-left:108px;padding:2px 5px;color:#fff;background:url(../image/sq_cqd_zx_icon.png) 50% no-repeat;}
+.sq_cqd_cont_item_ft_zan{display:block;float:right;width:30px;padding:2px 0 2px 20px;text-align:center;font-weight:600;color:#f1070a;background:url(../image/sq_cqd_dianzan_icon.png) 50% no-repeat;}
+.sq_cqd_cont_item_revise{margin-top:10px;overflow:hidden;}
+.sq_cqd_revise_btn{display:block;text-align:right;margin-right:13px;color:#3ccafb;}
+
+
+
